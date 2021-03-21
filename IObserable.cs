@@ -1,0 +1,12 @@
+﻿
+
+namespace Clock_project
+{
+    interface IObserable
+    {
+        void AddObserver(IObserver observer);
+        void RemoveObserver(IObserver observer);
+        void Notify();
+
+    }
+}
